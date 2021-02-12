@@ -12,6 +12,7 @@ const beachDoorPath = 'https://content.codecademy.com/projects/chore-door/images
 const spaceDoorPath = 'https://content.codecademy.com/projects/chore-door/images/space.svg';
 const closedDoorPath = 'https://content.codecademy.com/projects/chore-door/images/closed_door.svg';
 
+
 doorImage1.onclick = () => {
     if (!isClicked(doorImage1) && currentlyPlaying) {
         doorImage1.src = openDoor1;
